@@ -61,10 +61,10 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## Images
 
-![alt text](images/image.png)
+![alt text](Images/image.png)
 
-![alt text](images/image-1.png)
+![alt text](Images/image-1.png)
 
-![alt text](images/image-2.png)
+![alt text](Images/image-2.png)
 
-![alt text](images/image-3.png)
+![alt text](Images/image-3.png)
