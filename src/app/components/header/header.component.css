@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Ajusta la altura según tus necesidades */
+  border: 2px solid black;
+}
+
+header h1 {
+  text-align: center;
+}
