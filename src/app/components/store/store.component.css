@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    height: calc(100vh - 3rem); /* Ajusta la altura según tus necesidades */
+    border: solid 2px lightpink; /* Agrega un borde si es necesario */
+}
+
+#store-item-list, #store-item {
+    height: 100%; /* Asegura que los contenedores ocupen toda la altura disponible */
+}
+
+.item-list-border {
+    border: solid 2px lightblue;
+}
+
+.item-border {
+    border: solid 2px orange;
+}
+
+#store-item-list h1, #store-item h1 {
+    margin-bottom: 10px; /* Espacio entre el h1 y el siguiente elemento */
+}
+
+.item-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.quantity-btn {
+    width: 40px;
+    height: 40px;
+}

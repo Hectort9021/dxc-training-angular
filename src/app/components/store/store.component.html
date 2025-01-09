@@ -1,0 +1,138 @@
+<div class="container-fluid h-100 mt-3 rounded">
+    <div class="row h-100">
+        <div id="store-item-list" class="col-4 d-flex flex-column justify-content-center align-items-center">
+
+            <div class="container my-4 item-border rounded p-3">
+
+                <!-- Header -->
+                <div class="mb-4 text-center">
+                    <h3 class="fw-bold">STORE ITEM LIST</h3>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="mb-4">
+                    <input type="text" class="form-control" placeholder="STORE ITEM SEARCH" />
+                </div>
+
+                <!-- Item List-->
+                <div class="row g-3">
+                    <!-- Item -->
+                    <div class="col-12">
+                        <div class="d-flex align-items-center rounded p-3 item-list-border">
+                            <!-- Image -->
+                            <div class="me-3">
+                                <div class="d-flex justify-content-center align-items-center bg-light border rounded-circle"
+                                    style="width: 50px; height: 50px;">
+                                    😊
+                                </div>
+                            </div>
+
+                            <!-- Item Details -->
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">ITEM NAME</h5>
+                                <p class="mb-0 text-muted">DESCRIPTION</p>
+                            </div>
+
+                            <!-- Item Preview -->
+                            <div class="text-center me-3">
+                                <span class="fw-bold">STORE ITEM PREVIEW</span>
+                            </div>
+
+                            <!-- Price -->
+                            <div>
+                                <span class="fw-bold">$$$</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Items (repeat the structure for more items) -->
+                    <div class="col-12">
+                        <div class="d-flex align-items-center item-list-border rounded p-3">
+                            <div class="me-3">
+                                <div class="d-flex justify-content-center align-items-center bg-light border rounded-circle"
+                                    style="width: 50px; height: 50px;">
+                                    😊
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">ITEM NAME</h5>
+                                <p class="mb-0 text-muted">DESCRIPTION</p>
+                            </div>
+                            <div class="text-center me-3">
+                                <span class="fw-bold">STORE ITEM PREVIEW</span>
+                            </div>
+                            <div>
+                                <span class="fw-bold">$$$</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Example of a third item -->
+                    <div class="col-12">
+                        <div class="d-flex align-items-center item-list-border rounded p-3">
+                            <div class="me-3">
+                                <div class="d-flex justify-content-center align-items-center bg-light border rounded-circle"
+                                    style="width: 50px; height: 50px;">
+                                    😊
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">ITEM NAME</h5>
+                                <p class="mb-0 text-muted">DESCRIPTION</p>
+                            </div>
+                            <div class="text-center me-3">
+                                <span class="fw-bold">STORE ITEM PREVIEW</span>
+                            </div>
+                            <div>
+                                <span class="fw-bold">$$$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="store-item" class="col-8 d-flex flex-column justify-content-center align-items-center">
+            <div class="container my-4 item-border rounded p-4">
+                <!-- Header -->
+                <div class="mb-4 text-center">
+                    <h3 class="fw-bold">STORE ITEM</h3>
+                </div>
+
+                <!-- Item Details -->
+                <div class="row align-items-center">
+                    <!-- Image Section -->
+                    <div class="col-md-4 text-center">
+                        <img src="https://via.placeholder.com/300" alt="Item Image"
+                            class="item-image border rounded-circle" />
+                    </div>
+
+                    <!-- Description Section -->
+                    <div class="col-md-8">
+                        <h2 class="fw-bold">ITEM NAME</h2>
+                        <p>
+                            Item description: Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="fw-bold mb-1">PRICE $$$$</p>
+
+                        <!-- Quantity and Add to Cart -->
+                        <div class="d-flex align-items-center mb-3">
+                            <button class="btn btn-outline-secondary quantity-btn">-</button>
+                            <input type="text" class="form-control text-center mx-2" value="1" style="width: 50px;"
+                                readonly />
+                            <button class="btn btn-outline-secondary quantity-btn">+</button>
+                            <span class="fw-bold ms-3">$$</span>
+                        </div>
+                        <button class="btn btn-primary">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,11 +1,8 @@
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 10vh; /* Ajusta la altura según tus necesidades */
-  border: 2px solid black;
+  border: 2px dashed black;
 }
 
 header h1 {
-  text-align: center;
+  margin: 0; /* Elimina el margen predeterminado del h1 */
 }
